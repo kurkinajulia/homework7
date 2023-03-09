@@ -71,7 +71,7 @@ void FindNumber(int[,] matr, int i, int j) // Нахождение элемен�
             for (int n = 0; n < matr.GetLength(1); n++)
             {
                 matr[m, n] = matr[i, j];
-                Console.WriteLine($"Возвращаемый элемент: {matr[m, j]}");
+                Console.WriteLine($"Возвращаемый элемент: {matr[i, j]}");
                 return;
             }
         }
