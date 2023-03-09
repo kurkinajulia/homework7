@@ -17,7 +17,7 @@ int GetDataFromUser(string messageForUser) // Запрос диапозона м
     {
         Console.Write(messageForUser);
         flag = int.TryParse(Console.ReadLine(), out value);
-        if (flag == false) 
+        if (flag == false)
         {
             Console.WriteLine("Введённое значение не валидно, используйте целые числа.");
         }
