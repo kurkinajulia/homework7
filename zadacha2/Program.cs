@@ -29,7 +29,7 @@ int GetDataFromUser(string messageForUser) // Запрос диапозона м
     return value;
 }
 
-void PrintArray(int[,] matr) // Печать матрицы
+void PrintArray(int[,] matr) // Печать матрицы.
 {
     for (int m = 0; m < matr.GetLength(0); m++)
     {
@@ -41,7 +41,7 @@ void PrintArray(int[,] matr) // Печать матрицы
     }
 }
 
-void FillArray(int[,] matr) // Заполнение матрицы числами
+void FillArray(int[,] matr) // Заполнение матрицы числами.
 {
     for (int m = 0; m < matr.GetLength(0); m++)
     {
@@ -52,7 +52,7 @@ void FillArray(int[,] matr) // Заполнение матрицы числам�
     }
 }
 
-void FindNumber(int[,] matr, int i, int j) // Нахождение элемента в матрице
+void FindNumber(int[,] matr, int i, int j) // Нахождение элемента в матрице.
 {
     if (i > matr.GetLength(0) | j > matr.GetLength(1))
     {
